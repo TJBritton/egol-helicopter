@@ -1,0 +1,66 @@
+.titlebar {
+    position:fixed;
+    top:0%;
+    background-color:#212121;
+    width:100%;
+    padding:2%;
+    display:flex;
+    height:5%;
+}
+body {
+    margin:0%;
+}
+.maindiv {
+    top:5%;
+}
+h1 {
+    color:white;
+    margin:0%;
+    font-family:Monospace;
+}
+.hamburgerimg {
+    height:100%;
+}
+#hamburgerbutton {
+    padding:0%;
+    border:none;
+    margin-right:2%;
+    font-size:100%;
+}
+#leftnav {
+    width:20%;
+    height:100%;
+    position:fixed;
+    background-color:#121212;
+    left:0%;
+    display:none;
+}
+a.leftnavtext {
+    color:whitesmoke;
+    font-family:arial;
+    Text-align:center;
+    padding:0%;
+    font-size:150%;
+    text-decoration:none;
+}
+a.leftnavtext:hover {
+    color:lightgrey;
+    text-decoration: darkgrey underline;
+}
+.leftnavdivlight {
+    background-color:#303030;
+    padding:1%;
+}
+.leftnavdivdark {
+    background-color:#212121;
+    padding:1%;
+}
+.leftnavtopdiv {
+    margin:3.5%
+}
+.leftnavspacer {
+    background-color:#121212;
+}
+.spacertext {
+    color:#121212;
+}
