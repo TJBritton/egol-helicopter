@@ -10,8 +10,8 @@
 body {
     margin:0%;
 }
-.maindiv {
-    top:5%;
+.spacerdiv {
+    height:10%;
 }
 h1 {
     color:white;
@@ -61,6 +61,72 @@ a.leftnavtext:hover {
 .leftnavspacer {
     background-color:#121212;
 }
-.spacertext {
-    color:#121212;
+h2 {
+    font-family:Lucida Sans;
+    padding:2.5%;
+    font-size:200%;
+    text-align:center;
+    width:95%;
+    background-color:lightgrey;
+}
+.fullimg {
+    width:60%;
+    margin-left:20%;
+    border:5px solid lightgrey;
+    border-radius:5%;
+}
+p {
+    margin:5%;
+    font-size:125%;
+    font-family:Arial;
+}
+.leftnavspacer {
+    height:13%;
+    width:100%;
+}
+.videoiframe {
+    height:90%;
+    width:90%;
+    margin:5%;
+    border:none;
+}
+.galleryiframe {
+    height:351px;
+    width:90%;
+    margin:5%;
+    border:none;
+}
+.galleryflex {
+    display:flex;
+    height:fit-content;
+    width:fit-content;
+}
+.flexsection {
+    margin:10px;
+    border:5px solid darkgrey;
+    border-radius:10px;
+}
+.galleryimg {
+    height:300px;
+    border-radius:5px;
+}
+::-webkit-scrollbar {
+    width:10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow:inset 0 0 5px #121212;
+    background-color:#212121;
+}
+::-webkit-scrollbar-thumb {
+    background:grey;
+}
+::-webkit-scrollbar-thumb:hover {
+    background:darkgrey; 
+}
+ul {
+    margin:5%
+}
+li {
+    font-size:125%;
+    font-family:Arial;
 }
