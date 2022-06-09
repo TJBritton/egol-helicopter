@@ -85,10 +85,9 @@ p {
     width:100%;
 }
 .videoiframe {
-    height:90%;
-    width:90%;
-    margin:5%;
+    margin:2.5%;
     border:none;
+    float:center;
 }
 .galleryiframe {
     height:351px;
